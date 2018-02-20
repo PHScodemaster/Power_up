@@ -45,7 +45,7 @@ public class Drive_With_Joystick extends Command {
     @Override
     protected void execute() {
     	//Drive.acrDrive();
-    	Robot.drive.acrDrive();
+    	Robot.drive.arcDrive();
     }
 
     // Make this return true when this Command no longer needs to run execute()
